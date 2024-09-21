@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Spykseries</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="c:\Users\spyks\Desktop\Art\style.css">
+ <link rel="icon" type="c:\Users\spyks\Desktop\Art\favicon.ico" href="favicon.ico">
+
+  <link rel="stylesheet" href="c:\Users\spyks\Desktop\bootsrap\css\bootstrap.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  </head>
+
+<body>
+   
+<!--Navbar starts here-->
+
+  <nav class="navbar fixed-top navbar-expand-sm navbar-dark" style="background-color: rgba(3, 0, 0, 0.7);">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"><span class="text-warning">SpykArts</span>Gallery</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsupportedcontent" aria-controls="navbarsupportedcontent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <p class="working-hours">Mon-Fri: 9am-5pm | Sat: 10am-2pm | Sun: Closed</p>
+    <div class="collapse navbar-collapse" id="navbarsupportedcontent">
+        <ul class="navbar-nav" style="margin-left: auto; display: flex; align-items: center;">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsupportedcontent" aria-controls="navbarsupportedcontent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        </ul>
+      </div>
+      <div class="collapse navbar-collapse" id="sc">
+        <ul class="navbar-nav" style="margin-left: auto; display: flex; align-items: center;">
+
+           <!--search box-->
+    <div class="search-box">
+        <input type="text" placeholder="Search...">
+        <i class="fas fa-search fa-2x"></i>
+    </div>
+       
+          <!-- media icons -->
+          <li class="nav-item">
+            <a href="#" target="_blank" style="text-decoration: none;">
+              <div style="background-color: #fff; border-radius: 50%; width: 35px; height: 40px; display: inline-flex; justify-content: center; align-items: center; margin-right: 20px;">
+                <i class="bi bi-facebook" style="font-size: 25px; color: #754975;"></i>
+              </div>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" target="_blank" style="text-decoration: none;">
+              <div style="background-color: #fff; border-radius: 50%; width: 35px; height: 40px; display: inline-flex; justify-content: center; align-items: center; margin-right: 20px;">
+                <i class="bi bi-linkedin" style="font-size: 25px; color: #754975;"></i>
+              </div>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" target="_blank" style="text-decoration: none;">
+              <div style="background-color: #fff; border-radius: 50%; width: 35px; height: 40px; display: inline-flex; justify-content: center; align-items: center; margin-right: 20px;">
+                <i class="fa-sharp fa-solid fa-tablet-screen-button" style="font-size: 25px; color: #754975;"></i>
+              </div>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" target="_blank" style="text-decoration: none;">
+              <div style="background-color: #fff; border-radius: 50%; width: 35px; height: 40px; display: inline-flex; justify-content: center; align-items: center; margin-right: 20px;">
+                <i class="bi bi-instagram" style="font-size: 25px; color: #754975;"></i>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Image animation starts here -->
+  <div class="child-container" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-top: 100px;">
+
+    <div class="image-container" style="width: 150px; height: 150px; overflow: hidden; position: relative; transform: scale(0.8); opacity: 0; animation: popIn 0.6s forwards; animation-delay: 0.1s;">
+      <img src="c:\Users\spyks\Desktop\Art\img1 (4).jfif" alt="Image 1" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;">
+    </div>
+    <div class="image-container" style="width: 150px; height: 150px; overflow: hidden; position: relative; transform: scale(0.8); opacity: 0; animation: popIn 0.6s forwards; animation-delay: 0.3s;">
+      <img src="c:\Users\spyks\Desktop\Art\img1 (9).jfif" alt="Image 2" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;">
+    </div>
+    <div class="image-container" style="width: 150px; height: 150px; overflow: hidden; position: relative; transform: scale(0.8); opacity: 0; animation: popIn 0.6s forwards; animation-delay: 0.5s;">
+      <img src="c:\Users\spyks\Desktop\Art\img1 (8).jfif" alt="Image 3" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;">
+    </div>
+    <div class="image-container" style="width: 150px; height: 150px; overflow: hidden; position: relative; transform: scale(0.8); opacity: 0; animation: popIn 0.6s forwards; animation-delay: 0.7s;">
+      <img src="c:\Users\spyks\Desktop\Art\img1(20).jfif" alt="Image 4" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;">
+    </div>
+    <div class="image-container" style="width: 150px; height: 150px; overflow: hidden; position: relative; transform: scale(0.8); opacity: 0; animation: popIn 0.6s forwards; animation-delay: 0.7s;">
+        <img src="c:\Users\spyks\Desktop\Art\long3.jfif" alt="Image 4" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;">
+      </div>
+      <div class="image-container" style="width: 150px; height: 150px; overflow: hidden; position: relative; transform: scale(0.8); opacity: 0; animation: popIn 0.6s forwards; animation-delay: 0.7s;">
+        <img src="c:\Users\spyks\Desktop\Art\img1 (15).jfif" alt="Image 4" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;">
+      </div>
+      <div class="image-container" style="width: 150px; height: 150px; overflow: hidden; position: relative; transform: scale(0.8); opacity: 0; animation: popIn 0.6s forwards; animation-delay: 0.7s;">
+        <img src="c:\Users\spyks\Desktop\Art\long4.jfif" alt="Image 4" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;">
+      </div>
+  </div>
+
+  <!--middle text starts here-->
+  <div class="middle-section">
+    <div class="middle-section-content">
+      <h1> Discover the Artistic Experience of a Lifetime</h1>
+      <p>As you step into our gallery, you'll be greeted by a treasure trove of 
+        visual delights. From vibrant paintings and sculptures to thought-provoking installations
+         and photography, every piece on display is a testament to the artist's skill and creativity.
+          Our expert curators have carefully selected each work to ensure a diverse and engaging experience
+           for visitors of all ages and backgrounds.
+        Explore, Engage, and Collect.
+      </p>
+    </div>
+  </div>
+  <br>
+
+  <div class="text-center">
+  <h3 class="text-danger"> Arts Movement and Styles</h3>
+  </div>
+  <!--List of  Art-->
+  <div class="special-container">
+    <ul class="left-side">
+      <div class="vertical-list">
+      <li><a href="#Abstract-Expressionism">Abstract Expressionism</a></li>
+      <li><a href="#Symbolism">Symbolism</a></li>
+      <li><a href="#impressionism">Impressionism</a></li>
+      <li><a href="#Futurism">Futurism</a></li>
+      <li><a href="#Cubism">Cubism</a></li>
+      <li><a href="#Surrealism">Surrealism</a></li>
+      </div>
+    </ul>
+      <ul class="right-side">
+        <div class="#vertical-list">
+      <li><a href="#Fauvism">Fauvism</a></li>
+      <li><a href="#Digital Art">Digital Art</a></li>
+      <li><a href="#Minimalism">Minimalism</a></li>
+      <li><a href="#Pop Art">Pop Art</a></li>   
+      <li><a href="#Street Art">Street Art</a></li> 
+      <li><a href="#Avant-garde">Avant-garde</a></li>
+    </ul>
+  </div>
+  </div>
+
+  <!---Artistic Movement-->
+    <div class="container mt-5">
+      <a href="#" class="link-container">
+        <div class="d-flex">
+          <div class="box">
+            <img src="c:\Users\spyks\Desktop\Art\Expressionism.jpg" alt="Expressionism Art">
+          </div>
+          <div class="text-container">
+            <h3 class="heading">Abstract Expressionism</h3></a>
+            <p class="text">
+              The designation ‘Abstract Expressionism’ encompasses a wide variety of American 20th-century art movements in abstract art.
+               Also known as The New York School, this movement includes large painted canvases, sculptures and other media as well. The term 
+               ‘action painting’ is associated with Abstract Expressionism, describing a highly dynamic and spontaneous application of vigorous
+                brushstrokes and the effects of dripping and spilling paint onto the canvas... <a href="#">Read more</a>
+            </p>
+          </div>
+        </div>
+      </a>
+    </div>
+  
+    <div class="container mt-5">
+      <a href="#" class="link-container">
+        <div class="d-flex">
+          <div class="box">
+            <img src="c:\Users\spyks\Desktop\Art\simple.jpg" alt="Expressionism Art">
+          </div>
+          <div class="text-container">
+            <h3 class="heading">Symbolism</h3></a>
+            <p class="text">
+              Symbolism emerged in the second half of the 19th century, mainly in Catholic European countries where industrialisation 
+              had developed to a great degree. Starting as a literary movement, Symbolism was soon identified with a young generation of
+               painters who wanted art to reflect emotions and ideas rather than to represent the natural world in an objective 
+              way, united by a shared pessimism and weariness of the decadence in modern society...<a href="#">Read more</a> 
+            </p>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <!--3rd movement-->
+<div class="parent-container">
+    <div class="container mt-5">
+      <a href="#" class="link-container">
+        <div class="d-flex">
+          <div class="box">
+            <img src="c:\Users\spyks\Desktop\Art\fauvism.jpg" alt="Expressionism Art">
+          </div>
+          <div class="text-container">
+            <h3 class="heading">Impressionism</h3></a>
+            <p class="text">
+            Impressionism is a 19th-century art movement, associated especially with French artists such as Claude Monet,
+            Pierre Auguste Renoir, Camille Pissarro and Alfred Sisley, who attempted to accurately and objectively record 
+            visual ‘impressions’ by using small, thin, visible brushstrokes that coalesce to form a single scene and emphasize
+            movement and the changing qualities of light...<a href="#">Read more</a>
+            </p>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!--4th-->
+    <div class="parent-container">
+      <div class="container mt-5">
+        <a href="#" class="link-container">
+          <div class="d-flex">
+            <div class="box">
+              <img src="c:\Users\spyks\Desktop\Art\future.jpg" alt="Futurism Art">
+            </div>
+            <div class="text-container">
+              <h3 class="heading">Futurism</h3></a>
+              <p class="text">
+              Fairly unique among different types of art movements, it is 
+              an Italian development in abstract art and literature, founded in 1909 by Filippo Tommaso Marinetti, 
+              aiming to capture the dynamism, speed and energy of the modern mechanical world...<a href="#">Read more</a>
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <!--5th-->
+      <div class="parent-container">
+        <div class="container mt-5">
+          <a href="#" class="link-container">
+            <div class="d-flex">
+              <div class="box">
+                <img src="c:\Users\spyks\Desktop\Art\cubism.jpg" alt="Cubism Art">
+              </div>
+              <div class="text-container">
+                <h3 class="heading">Cubism</h3></a>
+                <p class="text">
+                An artistic movement began in 1907 by artists Pablo Picasso and Georges Braque who developed a visual
+                language whose geometric planes challenged the conventions of representation in different types of art,
+                by reinventing traditional subjects such as nudes, landscapes, and still lifes as increasingly fragmented compositions...<a href="#">Read more</a>
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!--6th-->
+        <div class="parent-container">
+          <div class="container mt-5">
+            <a href="#" class="link-container">
+              <div class="d-flex">
+                <div class="box">
+                  <img src="c:\Users\spyks\Desktop\Art\surrealism.jpg" alt="Surrealism Art">
+                </div>
+                <div class="text-container">
+                  <h3 class="heading">Surrealism</h3></a>
+                  <p class="text">
+                    Founded by the poet André Breton in Paris in 1924, Surrealism was
+                    an artistic and literary movement that was active through World War II. The main goal of
+                    Surrealism painting and Surrealism artworks was to liberate thought, language, and human experience 
+                    from the oppressive boundaries of rationalism by championing the irrational, the poetic and the revolutionary...<a href="#">Read more</a>
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!--7th-->
+        <div class="parent-container">
+          <div class="container mt-5">
+            <a href="#Fauvism" class="link-container">
+              <div class="d-flex">
+                <div class="box">
+                  <img src="c:\Users\spyks\Desktop\Art\fauvism.jpg" alt="Fauvism Art">
+                </div>
+                <div class="text-container">
+                  <h3 class="heading">Fauvism</h3></a>
+                  <p class="text">
+                    Coined by the critic Louis Vauxcelles, Fauvism (French for “wild beasts”) is one of 
+                    the early 20th-century art movements. Fauvism is associated especially with Henri Matisse 
+                     and André Derain, whose works are characterized by strong, vibrant colour and bold brushstrokes 
+                     over realistic or representational qualities...<a href="#">Read more</a></p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!--8th-->
+        <div class="parent-container">
+          <div class="container mt-5">
+            <a href="#"class="link-container">
+              <div class="d-flex">
+                <div class="box">
+                  <img src="c:\Users\spyks\Desktop\Art\digital.jpg" alt="Digital Art">
+                </div>
+                <div class="text-container">
+                  <h3 class="heading">Digital Art</h3></a>
+                  <p class="text">
+                  Digital Art broadly covers a variety of creative practices that employ different
+                  electronic technologies and result in a final product that is also digital. From computer graphics 
+                  to virtual reality, from artificial Intelligence to NFT technology, the Digital Art spectrum is wide, 
+                  innovative, and under the spotlight of the contemporary art market...<a href="#">Read more</a></p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!--9th-->
+        <div class="parent-container">
+          <div class="container mt-5">
+            <a href="#"class="link-container">
+              <div class="d-flex">
+                <div class="box">
+                  <img src="c:\Users\spyks\Desktop\Art\minimalism.jpg" alt="Expressionism Art">
+                </div>
+                <div class="text-container">
+                  <h3 class="heading">Minimalism</h3></a>
+                  <p class="text">
+                    Another one of the art movements from the 1960s, and typified by works composed of simple art, 
+                    such as geometric shapes devoid of representational content. The minimal vocabulary of forms made from 
+                    humble industrial materials challenged traditional notions of craftsmanship, the illusion of spatial depth 
+                    in painting, and the idea that a work of abstract art must be one of a kind...<a href="#">Read more</a></p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!--10th-->
+        <div class="parent-container">
+          <div class="container mt-5">
+            <a href="#"class="link-container">
+              <div class="d-flex">
+                <div class="box">
+                  <img src="c:\Users\spyks\Desktop\Art\pop Art.jpg" alt="Pop Art">
+                </div>
+                <div class="text-container">
+                  <h3 class="heading">Pop Art</h3></a>
+                  <p class="text">                  Pop Art emerged in the 1950s and was composed of British and American artists who draw inspiration from ‘popular’ 
+                          imagery and products from commercial culture as opposed to ‘elitist’ fine art. Pop art reached 
+                          its peak of activity in the 1960s, emphasizing the banal or kitschy elements of everyday life in 
+                          such forms as mechanically reproduced silkscreens, large-scale facsimiles, and soft pop art sculptures...<a href="#">Read more</a>
+                      </p>
+                  </div>
+              </div>
+          </div>
+      </div>
+      
+        <!--11th-->
+        <div class="parent-container">
+          <div class="container mt-5">
+            <a href="#"class="link-container">
+              <div class="d-flex">
+                <div class="box">
+                  <img src="c:\Users\spyks\Desktop\Art\Street_Art_Banksy_300x300.jpg" alt="Street Art">
+                </div>
+                <div class="text-container">
+                  <h3 class="heading">Street Art</h3></a>
+                  <p class="text">
+                    Evolving from early forms of graffiti, Street Art is a thought-provoking art 
+                    movement that emerged in the 1960s and peaked with the spray-painted New York subway 
+                    train murals of the 1980s. Street artists use urban spaces as their canvas, turning cities 
+                    around the globe into open sky museums and have often found their way into the mainstream art world...<a href="#">Read more</a></p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!--12th-->
+        <div class="parent-container">
+          <div class="container mt-5">
+            <a href="#" class="link-container">
+              <div class="d-flex">
+                <div class="box">
+                  <img src="c:\Users\spyks\Desktop\Art\Avant-garde-manzoni-shit-1.jpg" alt="Avant-garde">
+                </div>
+                <div class="text-container">
+                  <h3 class="heading">Avant-garde</h3></a>
+                  <p class="text">
+                    In French, avant-garde means “advanced guard” and refers to innovative
+                    or experimental concepts, works or the group or people producing them, particularly 
+                    in the realms of culture, politics, and the arts...<a href="#">Read more</a></p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        
+        <!-- Address container -->
+<div class="Address-container-fluid mt-5">
+  <div class="header">
+      <h3>Contact and Address Information</h3>
+  </div>
+  <div class="row text-center">
+      <div class="col">
+          <h5>Address</h5>
+          <p>
+              102 IAUE RD,<br>
+              IWOFE, AKPOR LGA,<br>
+              RIVERS STATE.
+          </p>
+      </div>
+      <div class="col">
+        <h5>Address </h5>
+          <p>
+            10 YABATECH Avenue,<br>
+            YABA, Sago LGA,<br>
+            LAGOS STATE.
+          </p>
+      </div>
+      <div class="col">
+        <h5>Phone</h5>
+          <br>
+          <p>+23480000000000</p>
+          <p>+23490000000012</p>
+      </div>
+      <div class="col">
+          <h5>Email</h5>
+          <p>SpykArtsgallery.com</p>
+      </div>
+  </div>
+</div>
+
+      
+
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+  
+
+
+  
+    
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
